@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 export const connectDB = async () => {
   await mongoose
     .connect(
-      "mongodb://127.0.0.1:27017/dbb"
+      "mongodb+srv://yellowmaticsgit_db_user:gokulmanoj_db@cluster0.qnxwbh5.mongodb.net/?appName=Cluster0"
     )
     .then(() => console.log('DB Connected'));
 };
